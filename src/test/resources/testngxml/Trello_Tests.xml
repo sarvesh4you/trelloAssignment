@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Trello Test" preserve-order="true" thread-count="1">
+	
+    
+    
+	<test name="Test For Trello">
+		<classes>
+			<class name="com.smartassistant.trello.tests.Trello_Test_Login_And_AddCommentToAnExistingCard"/>
+		</classes>
+	</test>
+</suite>
