@@ -27,27 +27,29 @@
 #### Execution Steps:
 Please follow the instructions to execute the tests on local:
 
-Checkout the code from GIT Stash with provided link :
+*Checkout the code from GIT Stash with provided link :
    https://github.com/sarvesh4you/trelloAssignment.git
+   
+*Import project in Eclipse as a maven project   
 
+*Run the test class /src/test/java/com/smartassistant/trello/tests/Trello_Test_Login_And_AddCommentToAnExistingCard.java as TestNg
 
-According to the Test Scope use following commands
-  - To Execute the single test suite
-	``` mvn clean verify -Dtest="Test suite name"```
-	
+Or run the test class /src/test/java/com/smartassistant/trello/tests/Trello_Test_Login_And_AddCommentToAnExistingCard.java with maven configuration
+   
+Or update Trello_Tests.xml accordingly and run as Testng.
+   - Location of xml : \src\test\resources\testngxml\Trello_Tests.xml  
+   
+Or according to the Test Scope use following command in cmd in project root directory
 	 - To Execute the all test suite
 	``` mvn clean verify"```
 
 Or use batch files to execute desired suit which are avilable in project base directory.
 
-
-Or import project in Eclipse as a maven project and run desired suit as maven or as Testng.
-   - Location of testng.xml : \src\test\resources\testngxml\Trello_Tests.xml
-
-
     
 #### Result Files:	
-The Test Execution Results will be stored in the following directory once the test has completed
+*Check console after the test execution.
+
+Or Test Execution Results will be stored in the following directory once the test has completed
 
     ./target/test-output/emailable-report.html (for complete test suite)
     ./target/surefire-reports/emailable-report.html (for single test suite)
