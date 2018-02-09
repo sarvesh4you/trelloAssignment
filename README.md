@@ -8,7 +8,7 @@
 
 * Eclipse IDE or any other of choice in case there is need to update the script.
 
-* For execution of scripts on Chrome, you need to have executable file for Chrome driver and paste them at location "\src\test\resources\drivers" in project folder.
+* For execution of scripts on Chrome, you need to have executable file for Chrome driver and paste them at location ```"\src\test\resources\drivers"``` in project folder.
 
 * You can download this executable file from below links
   * Chrome: https://drive.google.com/file/d/0B4FqnK04LJRnNWZFOEE3Wjd4aFk/view
@@ -18,9 +18,9 @@
 #### Pre-Requisites:
 
 * Update credentials for Trello application in the test data file under
-    \src\test\resources\testdata\TestData.properties
+    ```"\src\test\resources\testdata\TestData.properties"```
     
-* We must have existing trello card "Learn_Selenium_Tool" under trello list "Learn_Automation" in existing board "SMARTASSISTANT_TASK" in our trello account before running the tests.  
+* We must have existing trello card ```"Learn_Selenium_Tool"``` under trello list ```"Learn_Automation"``` in existing board ```"SMARTASSISTANT_TASK"``` in our trello account before running the tests.  
     
  
 
@@ -32,16 +32,16 @@ Please follow the instructions to execute the tests on local:
    
 *Import project in Eclipse as a maven project   
 
-*Run the test class /src/test/java/com/smartassistant/trello/tests/Trello_Test_Login_And_AddCommentToAnExistingCard.java as TestNg
+*Run the test class ```"/src/test/java/com/smartassistant/trello/tests/Trello_Test_Login_And_AddCommentToAnExistingCard.java"``` as TestNg
 
-Or run the test class /src/test/java/com/smartassistant/trello/tests/Trello_Test_Login_And_AddCommentToAnExistingCard.java with maven configuration
+Or run the test class ```"/src/test/java/com/smartassistant/trello/tests/Trello_Test_Login_And_AddCommentToAnExistingCard.java"``` with maven configuration
    
 Or update Trello_Tests.xml accordingly and run as Testng.
-   - Location of xml : \src\test\resources\testngxml\Trello_Tests.xml  
+   - Location of xml : ```"\src\test\resources\testngxml\Trello_Tests.xml"```
    
 Or according to the Test Scope use following command in cmd in project root directory
 	 - To Execute the all test suite
-	``` mvn clean verify"```
+	```"mvn clean verify"```
 
 Or use batch files to execute desired suit which are avilable in project base directory.
 
@@ -51,5 +51,5 @@ Or use batch files to execute desired suit which are avilable in project base di
 
 Or Test Execution Results will be stored in the following directory once the test has completed
 
-    ./target/test-output/emailable-report.html (for complete test suite)
-    ./target/surefire-reports/emailable-report.html (for single test suite)
+    ```"./target/test-output/emailable-report.html (for complete test suite)"```
+    ```"./target/surefire-reports/emailable-report.html (for single test suite)"```
