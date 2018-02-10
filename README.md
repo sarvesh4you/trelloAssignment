@@ -51,5 +51,5 @@ Or use batch files to execute desired suit which are avilable in project base di
 
 Or Test Execution Results will be stored in the following directory once the test has completed
 
-    ```"/target/test-output/emailable-report.html (for complete test suite)"```
-    ```"/target/surefire-reports/emailable-report.html (for single test suite)"```
+    ```"/src/test-output/emailable-report.html"```
+    ```"/src/target/surefire-reports/"```
